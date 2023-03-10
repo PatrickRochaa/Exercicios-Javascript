@@ -6,7 +6,7 @@ res.innerHTML = `<strong>Calculando o desconto de 10% para ${produto}<br><br></s
 var final = valor-desconto
 res.innerHTML +=`O preço original era ${valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}<br><br>`
 res.innerHTML += `Voce acaba de ganhar ${desconto.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} de desconto (-10%)<br><br>`
-res.innerHTML += `No fim, voce vai pagar ${final.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} nosbox ${produto} <br><br>`
+res.innerHTML += `O novo valor do ${produto} será ${final.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} <br><br>`
 
 
 }
