@@ -8,5 +8,5 @@ if( ano%4== 0 && ano%100 != 0 || ano%400 == 0  ){
 } else{
     var sit = '<mark style= "background-color: red">NAO É BISSEXTO</mark> &#10060;'
 }
-res.innerHTML += `O ano de ${ano} ${sit}`
+res.innerHTML += `<p>O ano de ${ano} ${sit}</p>`
 }

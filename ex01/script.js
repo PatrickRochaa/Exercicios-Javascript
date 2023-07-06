@@ -1,9 +1,9 @@
 function botao1(){
-    window.alert('Voce clicou no Botao 1')
+    window.alert('Você clicou no botão 1')
 }
 function botao2(){
-    window.alert('Voce clicou no Botao 2')
+    window.alert('Você clicou no botão 2')
 }
 function botao3(){
-    window.alert('Voce clicou no Botao 3')
+    window.alert('Você clicou no botão 3')
 }

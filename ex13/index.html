@@ -6,15 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ex13</title>
     <script src="script.js"></script>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+            box-sizing: border-box;
+            overflow: hidden;            
+        }
+        
+        body{
+
+            width: 100vw;
+            height: 100vh;
+            
+        }
+
+        section{
+            margin:auto;
+            padding:20px;            
+            width: 550px;
+            height: 420px; 
+            margin-top:30px;         
+            text-align: center; 
+            border-radius: 5px;            
+            border:1px solid black;          
+            background-color: lightgray;
+            
+        }
+
+        h1{
+            font-size:2.5rem;
+        }
+
+        input[type="button"]{
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+
+        input[type="button"]:hover{
+            background-color: darkgray;
+            color: white;
+        }
+
+        div#res{
+            text-align: left;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        
+        div#res > p{
+            margin: 10px 0px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Situação do Aluno</h1>
-    <p>
-        <input type="button" value="Entrar com as notas" onclick="somar()">
-    </p>
-
-    <div id="res">
-        Clique no botão acima para informar as notas do aluno.
-    </div>
+    <section>
+        <h1>Situação do Aluno</h1>
+        <p>
+            <input type="button" value="Entrar com as notas" onclick="somar()">
+        </p>
+        <div id="res">
+            Clique no botão acima para informar<br> as notas do aluno.
+        </div>
+    </section>
 </body>
 </html>
